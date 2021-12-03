@@ -5,3 +5,8 @@ Scanner::Scanner(QWidget *parent) :
 {
     setupUi(this);
 }
+
+void Scanner::on_startButton_clicked()
+{
+
+}

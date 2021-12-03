@@ -26,10 +26,14 @@ CONFIG += c++11
 
 SOURCES += \
         main.cpp \
-        scanner.cpp
+        scanner.cpp \
+    scannernet.cpp \
+    scannergui.cpp
 
 HEADERS += \
-        scanner.h
+        scanner.h \
+    scannernet.h \
+    scannergui.h
 
 FORMS += \
         scanner.ui

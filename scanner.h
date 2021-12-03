@@ -9,6 +9,8 @@ class Scanner : public QWidget, private Ui::Scanner
 
 public:
     explicit Scanner(QWidget *parent = nullptr);
+private slots:
+    void on_startButton_clicked();
 };
 
 #endif // SCANNER_H
