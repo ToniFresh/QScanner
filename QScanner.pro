@@ -5,6 +5,7 @@
 #-------------------------------------------------
 
 QT       += core gui
+QT += core network
 
 greaterThan(QT_MAJOR_VERSION, 4): QT += widgets
 
@@ -27,13 +28,11 @@ CONFIG += c++11
 SOURCES += \
         main.cpp \
         scanner.cpp \
-    scannernet.cpp \
-    scannergui.cpp
+    scannernet.cpp
 
 HEADERS += \
         scanner.h \
-    scannernet.h \
-    scannergui.h
+    scannernet.h
 
 FORMS += \
         scanner.ui
